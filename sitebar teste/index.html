@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <button class="openbtn" onclick="openNav()">☰</button>
+
+   
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </div>
+
+    
+    <div id="main">
+        <h2>TESTE</h2>
+        <p>Aqui vai o conteúdo principal do site.</p>
+    </div>
+
+  
+    <script>
+        // Função para abrir a sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "280px"; 
+            document.getElementById("main").style.marginRight = "280px"; 
+        }
+
+        // Função para fechar a sidebar
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0"; 
+            document.getElementById("main").style.marginRight = "0"; 
+        }
+    </script>
+
+</body>
+</html>
+
+
+
