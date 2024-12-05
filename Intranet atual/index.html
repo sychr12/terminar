@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="icon" href="/intranet/images/nti.ico" type="image/x-icon">
+  <title>Intranet IDAM</title>
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>ACESSE OS PRINCIPAIS LINKS DA INSTITUIÇÃO</h1>
+  </header>
+
+  <!-- Galeria de Links -->
+  <div class="gallery">
+    <button class="button" onclick="window.open('http://login.microsoftonline.com/?whr=integra.am.gov.br/', '_blank', 'noopener noreferrer');">
+      <img src="images/email.png" alt="logo email" width="150px">
+    </button>
+    <button class="button" onclick="window.open('https://www.e-compras.am.gov.br/publico/', '_blank', 'noopener noreferrer');">
+      <img src="images/ecompras.png" alt="logo e-compras" width="160px">
+    </button>
+    <button class="button" onclick="window.open('http://www.ajuri.am.gov.br/', '_blank', 'noopener noreferrer');">
+      <img src="images/ajuri.png" alt="logo ajuri" width="160px">
+    </button>
+    <button class="button" onclick="window.open('https://www.sefaz.am.gov.br/', '_blank', 'noopener noreferrer');">
+      <img src="images/sefaz.png" alt="logo sefaz" width="160px">
+    </button>
+    <button class="button" onclick="window.open('https://sistemas.sefaz.am.gov.br/siged/login', '_blank', 'noopener noreferrer');">
+      <img src="images/siged.png" alt="logo siged" width="150px">
+    </button>
+    <button class="button" onclick="window.open('http://nti.idam.am.gov.br/glpi/', '_blank', 'noopener noreferrer');">
+      <img src="images/logo_nti.png" alt="logo nti" width="200px">
+    </button>
+    <button class="button" onclick="window.open('https://web.whatsapp.com/', '_blank', 'noopener noreferrer');">
+      <img src="images/whatsapp.png" alt="logo whatsapp" width="160px">
+    </button>
+    <button class="button" onclick="window.open('http://www.idam.am.gov.br', '_blank', 'noopener noreferrer');">
+      <img src="images/idam.png" alt="logo idam" width="160px">
+    </button>
+  </div>
+
+  <!-- Botão para abrir o menu -->
+  <button class="openbtn" onclick="openNav()">☰</button>
+
+  <!-- Navegação -->
+  <nav>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+      <ul>
+        <!-- DAF Section -->
+        <li class="dropdown">
+          <a href="#">DAF <i class="fas fa-comment-dots" style="font-size:36px"></i></a>
+          <div class="dropdown-menu">
+            <a href="#">DA</a>
+            <a href="#">GAD</a>
+            <a href="#">GHR</a>
+            <a href="#">GEMAP</a>
+            <a href="#">GETRAN</a>
+            <a href="#">DEFIN</a>
+            <a href="#">GECON</a>
+            <a href="#">GEOFI</a>
+            <a href="#">GEABS</a>
+            <a href="#">GEAPC</a>
+            <a href="#">NTI</a>
+          </div>
+        </li>
+
+        <!-- DIPLAN Section -->
+        <li class="dropdown">
+          <a href="#">DIPLAN <i class="fas fa-search" style="font-size:30px"></i></a>
+          <div class="dropdown-menu">
+            <a href="#">DEPLA</a>
+            <a href="#">GEPP</a>
+            <a href="#">GEAC</a>
+            <a href="#">GECACT</a>
+          </div>
+        </li>
+
+        <!-- DITER Section -->
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropdown-btn">DITER <i class="fas fa-id-badge" style="font-size:30px"></i></a>
+          <div class="dropdown-menu">
+            <a href="#">DATER</a>
+            <a href="#">GEPAN</a>
+            <a href="#">GPV</a>
+            <a href="#">GEAPE</a>
+            <a href="#">GECRER</a>
+            <a href="#">GEAG</a>
+            <a href="#">DOPER</a>
+            <a href="#">GESAT</a>
+            <a href="#">GECAM</a>
+            <a href="#">GECOM</a>
+            <a href="#">GEORP</a>
+            <a href="#">CPCPR</a>
+            <a href="#">DATEF</a>
+            <a href="#">GEPM</a>
+            <a href="#">GEPNM</a>
+            <a href="#">GEAPO</a>
+            <a href="#">NUCGEO</a>
+            <a href="#">REGAM</a>
+          </div>
+        </li>
+
+        <!-- DITER Additional Links -->
+        <li class="dropdown">
+          <a href="#">DITER <i class="far fa-comments" style="font-size:30px"></i></a>
+          <div class="dropdown-menu">
+            <a href="#">PJ</a>
+            <a href="#">GABIN</a>
+            <a href="#">CCI</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Rodapé -->
+  <footer>
+    <img src="images/logosFooterr.png" alt="logo governo e sepror">
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
